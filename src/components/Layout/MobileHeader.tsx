@@ -9,7 +9,7 @@ export const MobileHeader = () => {
   return (
     <div className="mobile-header">
       <button onClick={() => toggle()}>
-        <FontAwesomeIcon icon={isSidemenuVisible ? faTimes : faBars} />
+        <FontAwesomeIcon icon={ isSidemenuVisible ? faTimes : faBars} />
       </button>
       <img src="logo.png" alt="" />
     </div>
